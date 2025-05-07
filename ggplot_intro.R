@@ -238,20 +238,19 @@ ggsave("figures/violin_genotype_twogene.jpeg",  width = 8, height = 6)
 
 
 
-  
-
-
 ## Another way to look at the same data
 ggplot(data_for_plot, aes(expression, fill=gene))+
   geom_density()+theme_bw()+
-  scale_fill_manual(values=c("#41ab5d","#bdbdbd"), name="Genotype")+
+  scale_fill_manual(values=c("#41ab5d","#bdbdbd"), name="Gene")+
   xlab("Gene Expression")
 
 # add transparency with alpha
 ggplot(data_for_plot, aes(expression, fill=gene))+
   geom_density(alpha=0.5)+theme_bw()+
-  scale_fill_manual(values=c("#41ab5d","#bdbdbd"), name="Genotype")+
+  scale_fill_manual(values=c("#41ab5d","#bdbdbd"), name="Gene")+
   xlab("Gene Expression")
+
+
 
 
 #################

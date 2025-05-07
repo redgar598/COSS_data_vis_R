@@ -116,17 +116,6 @@ The following example is for patient mutation data in relation of clinical facto
 
 
 
-### Example 5
-The following example is for visualizing clustering data with color. The provided code loads data and does the clustering to generate the dendogram. I recommend *myplclust* from the rafalib package for coloring the clustering labels by developmental stage.
-
-<p align="left">
-  <img src="figures/clustering_with_color.png" width="500" height="300">
-</p>
-
-
-
-<br/>
-<br/>
 
 ### Additional Resources
 [Effective Visual Communication for the Quantitative Scientist](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12455)

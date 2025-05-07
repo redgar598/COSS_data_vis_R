@@ -1,0 +1,15 @@
+Baker,Gender,Age,Occupation,Hometown,Technicals,TOTAL_Technicals,Star_Bakers,TOTAL_Star_Bakers,Handshakes,TOTAL_Handshakes,Occupation_Category,Latitude,Longitude
+Edd,M,24,Debt collector for Yorkshire Bank,Bradford,2,5,,,,,Business and administration,53.792162,-1.754052
+Jo,F,41,Housewife,"Ongar, Essex",3,8,1,7,,,Stay-at-Home,51.70867,0.249184
+John,M,22,Law student,Wigan,1,10,1,9,0,1,"Legal, social and cultural",53.544473,-2.630765
+Frances,F,31,Children's Clothes Designer,"Market Harborough, Leicestershire",1,10,1,9,1,1,"Legal, social and cultural",52.476057,-0.926649
+Nancy,F,60,Retired Practice Manager,"Barton-upon-Humber, Lincolnshire",3,10,1,9,0,2,Health,53.685207,-0.441877
+Nadiya,F,30,Full-time mother,Leeds / Luton,4,10,3,9,1,3,Stay-at-Home,53.800549,-1.547517
+Candice,F,31,PE teacher,"Barton-Le-Clay, Bedfordshire",1,10,3,9,1,4,Teaching,51.966951,-0.426469
+Sophie,F,33,Former army officer and trainee stuntwoman,"West Molesey, Surrey",2,10,2,9,1,7,Armed forces,51.394987,-0.355612
+Rahul,M,30,Research scientist,Rotherham,1,10,2,9,3,12,Science and engineering,53.423051,-1.354402
+David,M,36,International health adviser,Whitby,2,10,0,9,1,4,Health,54.485593,-0.623087
+Peter,M,20,Accounting & finance student,Edinburgh,3,10,2,9,1,3,Business and administration,55.949042,-3.162503
+Giuseppe,M,45,Chief engineer,Bristol,3,10,2,9,2,7,Science and engineering,51.453611,-2.5975
+Syabira,F,32,Cardiovascular research associate,London,3,10,3,9,1,4,Health,51.507222,-0.1275
+Matty,M,28,PE and science teacher,Cambridgeshire,0,10,2,9,1,5,Teaching,52.333333,0.0
