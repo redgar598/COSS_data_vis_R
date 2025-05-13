@@ -2,9 +2,6 @@
 ## Sourcing a complex script
 ###################
 
-# Typically I source complex functions of plots that I will want to use for many different analyses
-source("volcano.R") 
-# Open volcano.R and see that is it 70 lines, that means it is 70 lines I don't have to explicitly repeat everytime I want to make a volcano plot
 
 # this sourced code call for these libraries
 library(ggplot2)
@@ -18,17 +15,7 @@ library(gridExtra)
 toptable<-read.csv("data/differential_expression.csv")
 head(toptable)
 
-# make a volcano
-# The function I wrote is called makeVolcano which I now feed new data into
-# arguments that makeVolcano takes are "pvalue, deltabeta, dB_threshold, pval_threshold, legend_title, xlimit" 
-makeVolcano(toptable$P.Value, toptable$logFC, 2, 0.005, "Wildtype vs Mutant", 6)
 
-
-
-
-####################
-## Step by step breakdown of a complex plot (volcano plot example)
-###################
 
 #### 1 set a custom theme for both plots with larger text
   th <-   theme(axis.text=element_text(size=12),
@@ -101,19 +88,6 @@ makeVolcano(toptable$P.Value, toptable$logFC, 2, 0.005, "Wildtype vs Mutant", 6)
   # the plot is assigned to and object so it can be combined with other plots in a grid, but to see it in R studio
   volcano_plot
 
-
-  
-#### 5 make the scree plot (histogram of pvalues above volcano plot)
-
-  pval_dis<-ggplot()+geom_histogram(aes(volcano$Pvalue),fill="grey90", color="black")+theme_bw()+xlab("Nominal P Value")+th+
-    theme(plot.margin=unit(c(1,8.75,-0.6,1.5),"cm"))+ylab("CpG Count")
-  
-  pval_dis
-
-  
-
-#### 6 Combine with grid arrange
-grid.arrange(pval_dis, volcano_plot, ncol=1,heights = c(2, 6))#
 
 
 

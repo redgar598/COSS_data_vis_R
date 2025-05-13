@@ -81,8 +81,8 @@ ___
 ## Extended ggplot
 Below are several examples of complex plots. Feel free to work through them on your own to see some techniques for developing presentation ready plots. 
 
-### Example 1
-We will start with a volcano plot I have made myself. 
+### Differential expression
+A common plot used to in computational biology to visualize the differential expression of a gene between conditions. 
 
 <p align="left">
   <img src="figures/volcano.png" width="500" height="400">
@@ -97,14 +97,6 @@ This example is take from the [simply statistics blog](https://simplystatistics.
 </p>
 
 
-### Example 3
-
-Principal Components Analysis (PCA) was done on gene expression data. The output is saved in 'gene_expression_PCA_data.RData' Loadings are the PCA loadings for each sample which can then be associated with sample information. Importance is the variance explained by each PC. I have used and ANOVA or correlations to generate the association P values of each PC and the sample information available. 
-
-<p align="left">
-  <img src="figures/heat_scree.png" width="400" height="300">
-</p>
-
 
 
 ### Patient mutations
@@ -118,7 +110,7 @@ The following example is for patient mutation data in relation of clinical facto
 ### Crops over time
 A stream plot from the farming data we were using
 <p align="left">
-  <img src="figures/farm_stream_plot.png" width="300" height="180">
+  <img src="figures/farm_stream_plot.png" width="600" height="360">
 </p>
 
 
