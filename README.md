@@ -89,8 +89,8 @@ We will start with a volcano plot I have made myself.
 </p>
 
 
-### Example 2
-This example is take from the [simply statistics blog](https://simplystatistics.org/2019/08/28/you-can-replicate-almost-any-plot-with-ggplot2/). 
+### Vaccination efficacy
+This example is take from the [simply statistics blog](https://simplystatistics.org/posts/2019-08-28-you-can-replicate-almost-any-plot-with-ggplot2/). 
 
 <p align="left">
   <img src="figures/wsj-vaccines-example-1.png" width="400" height="300">
@@ -107,7 +107,7 @@ Principal Components Analysis (PCA) was done on gene expression data. The output
 
 
 
-### Example 4
+### Patient mutations
 The following example is for patient mutation data in relation of clinical factors. The provided code (taken from [stack overflow](https://stackoverflow.com/questions/34211735/r-how-to-allocate-screen-space-to-complex-ggplot-images)) generates data to make the plot. 
 
 <p align="left">
@@ -115,10 +115,10 @@ The following example is for patient mutation data in relation of clinical facto
 </p>
 
 
-### Example 5
+### Crops over time
 A stream plot from the farming data we were using
 <p align="left">
-  <img src="figures/farm_stream_plot.png" width="500" height="400">
+  <img src="figures/farm_stream_plot.png" width="300" height="180">
 </p>
 
 
