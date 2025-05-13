@@ -115,6 +115,13 @@ The following example is for patient mutation data in relation of clinical facto
 </p>
 
 
+### Example 5
+A stream plot from the farming data we were using
+<p align="left">
+  <img src="figures/farm_stream_plot.png" width="500" height="400">
+</p>
+
+
 
 
 ### Additional Resources
