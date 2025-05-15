@@ -85,7 +85,7 @@ Below are several examples of complex plots. Feel free to work through them on y
 A common plot used to in computational biology to visualize the differential expression of a gene between conditions. 
 
 <p align="left">
-  <img src="figures/volcano.png" width="500" height="400">
+  <img src="figures/volcano.png" width="540" height="300">
 </p>
 
 
@@ -113,27 +113,20 @@ A stream plot from the farming data we were using
   <img src="figures/farm_stream_plot.png" width="600" height="360">
 </p>
 
-
+### Big Foot Sightings
+Plot the locations of big foot sightings on a map
+<p align="left">
+  <img src="figures/bigfoot.png" width="600" height="360">
+</p>
 
 
 ### Additional Resources
 [Effective Visual Communication for the Quantitative Scientist](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12455)
 <br/>
-[ggplot cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+[ggplot cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 <br/>
 [Points of View columns on data visualization](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
 
-
-# Things we found
-```
-theme(
-  panel.background = element_rect(fill = "#BFD5E3", colour = "#6D9EC1",
-                                size = 2, linetype = "solid"),
-  panel.grid.major = element_line(size = 0.5, linetype = 'solid',
-                                colour = "white"), 
-  panel.grid.minor = element_line(size = 0.25, linetype = 'solid',
-                                colour = "white"))
- ```
 
 
 ```
