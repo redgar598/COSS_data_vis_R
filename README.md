@@ -1,4 +1,4 @@
-# COSS_data_vis_R
+# Data Visualization in Bioinformatics (R)
 Plotting and data visualization are essential for effectively communicating bioinformatics findings, yet they are often treated as trivial tasks. In this course, we will showcase the power of a well-designed plot! We will cover key principles of effective visualization, work through examples ranging from basic to complex, and conclude with a hands-on workshop. By the end of the course, you will be able to create publication- or presentation-ready plots for your own research using R and ggplot2.
 
 ## Course Outline
