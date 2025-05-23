@@ -109,7 +109,7 @@ Plot the locations of big foot sightings on a map
 ### Single-Cell UMAP
 Uniform Manifold Approximation and Projection of single-cell expression data. Has a fancy black outline around all point. 
 <p align="left">
-  <img src="figures/fancy_UMAP.png" width="300" height="210">
+  <img src="figures/fancy_UMAP.png" width="600" height="410">
 </p>
 
 
