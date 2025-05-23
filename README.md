@@ -7,9 +7,10 @@
 Plotting and data visualization are essential for effectively communicating bioinformatics findings, yet they are often treated as trivial tasks. In this course, we will showcase the power of a well-designed plot! We will cover key principles of effective visualization, work through examples ranging from basic to complex, and conclude with a hands-on workshop. By the end of the course, you will be able to create publication- or presentation-ready plots for your own research using R and ggplot2.
 
 ## Course Outline
-- Get everyone set up with a functional version of RStudio (with necessary packages) and data 
 - [Overview of visualization principles](https://docs.google.com/presentation/d/10yaNiSj0xnXUfj_YDEPh7uCYQiVjZ9AoAHwtbDrv3Wo/edit?usp=sharing)
+- Get everyone set up with a functional version of RStudio (with necessary packages) and data 
 - Introduction to ggplot
+    - These can be found in the scripts folder in the downloaded project
     - [Part I](https://github.com/redgar598/COSS_data_vis_R/blob/main/ggplot_intro.R)
     - [Part II](https://github.com/redgar598/COSS_data_vis_R/blob/main/ggplot_intro_part2.R)
 - Hands on workshop to make plots of interest. I have listed a number of examples with different features. Choose one of interest to try and reproduce.
@@ -67,7 +68,7 @@ ___
 
 <br/><br/>
 
-## Extended ggplot
+## More ggplot examples to work through
 Below are several examples of complex plots. Feel free to work through them on your own to see some techniques for developing presentation ready plots. 
 
 ### Differential expression
