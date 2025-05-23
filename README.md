@@ -16,47 +16,40 @@ Plotting and data visualization are essential for effectively communicating bioi
 
 
 ## RStudio Setup
-Two options to get a functional RStudio with example data and necessary packages:
+### Using R in the Cloud  
+[https://posit.cloud/](https://posit.cloud/)
 
-| Option                | Pro                                        | Con                                                                         |
-|-----------------------|--------------------------------------------|-----------------------------------------------------------------------------|
-| RStudio Local Install | Will be set to do further analysis at home | More difficult                                                              |
-| RStudio Cloud         | Easy and has all packages available        | Limited in compute power, but can handle all examples                       |
+1. Go to <a href="https://posit.cloud/" target="_blank">Posit Cloud</a> and create a free account using your Google, GitHub, or email login.  
+2. Once you're logged in, click <strong>"New Project"</strong> → <strong>"From Git Repository"</strong>.  
+3. In the <strong>"Git Repository URL"</strong> field, paste the following URL: https://github.com/redgar598/COSS_data_vis_R.git
+4. This will create a cloud-based copy of the project, including all the materials you'll need for the hands-on portion of the workshop.
 
-<br/>
+### Using R Locally with RStudio  
+
+1. Open RStudio on your computer.  
+2. Go to <strong>File</strong> → <strong>New Project</strong> → <strong>Version Control</strong> → <strong>Git</strong>.  
+3. In the <strong>"Repository URL"</strong> field, paste: https://github.com/redgar598/COSS_data_vis_R.git
+4. Choose a local folder where you want to save the project, then click <strong>Create Project</strong>.  
+5. RStudio will clone the GitHub repository to your computer, and you'll be ready to work locally.
 
 
-**Tips to Install RStudio and necessary packages locally**
-    - First download [R](https://cran.r-project.org/) and then [R Studio](https://www.rstudio.com/products/rstudio/download/#download) to your local machine 
-    - Then to get the data
-        - *If you have git installed*, then in RStudio: Start a new project (file>new project), select Version Control, then git
-            - Paste the repository url https://github.com/redgar598/eipp_data_viz.git
-            - Once this has cloned load eipp_data_viz.Rproj
-        - *Without git download* git repo as zip: [here](https://github.com/redgar598/eipp_data_viz) then hit "Clone or download"
-            - Then within RStudio navigate to the folder and load eipp_data_viz.Rproj
-    
-    - Then after cloning from git or downloading the zip you need a few packages installed
-    
+
+
+### Required Packages
 ```
 # These are essential
 install.packages("ggplot2")
 install.packages("reshape2")
 install.packages("gridExtra")
 
-
 # These are fun and useful
 install.packages("RColorBrewer")
 install.packages("scales")
-install.packages("rafalib")
 install.packages("dplyr")
 ```
 
 
-
-### R Projects
-What even is "eipp_data_viz.Rproj" and why do you keep saying to load it? A complete explination is [here](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/). But a project file is a quick and contained way to load the required paths to the data, and related scripts whereever they happen to be on your computer. What we are doing for this tutorial is a great example. Since many of you will work locally, the scripts for eipp_data_viz should run within the eipp_data_viz folder on your computer without having to specify exactly where on your computer you saved it. R Projects are a system to help with data reproducibility when using R.
-
-<br/><br/>
+---
 
 ## Data We Will Be Using for ggplot Introduction
 We will be looking at gene expression data from mouse photoreceptors. There are samples from different developmental stages (E16,P2,P6,P10 and 4 weeks) and two mouse lines, a wildtype (wt) and knockouts for rod cell specific transcription factor (NrlKO). The gene expression and sample information data were collected from the Gene Expression Omnibus (GEO), under study ID [GSE4051](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4051).
