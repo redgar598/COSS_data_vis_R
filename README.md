@@ -10,7 +10,7 @@ Plotting and data visualization are essential for effectively communicating bioi
 - [Overview of visualization principles](https://docs.google.com/presentation/d/10yaNiSj0xnXUfj_YDEPh7uCYQiVjZ9AoAHwtbDrv3Wo/edit?usp=sharing)
 - Get everyone set up with a functional version of RStudio (with necessary packages) and data 
 - Introduction to ggplot
-    - These can be found in the scripts folder in the downloaded project
+    - These can be found in the downloaded project folder
     - [Part I](https://github.com/redgar598/COSS_data_vis_R/blob/main/ggplot_intro.R)
     - [Part II](https://github.com/redgar598/COSS_data_vis_R/blob/main/ggplot_intro_part2.R)
 - Hands on workshop to make plots of interest. I have listed a number of examples with different features. Choose one of interest to try and reproduce.
