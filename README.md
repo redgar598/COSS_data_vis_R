@@ -62,11 +62,7 @@ For more information on the actual paper see the associated [publication](http:/
     <figcaption> <sup>www.scientificanimations.com [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>], <a href="https://commons.wikimedia.org/wiki/File:Photoreceptor_cell.jpg">via Wikimedia Commons</a></sup></figcaption>
 </p>
 
-
-___
-
-
-<br/><br/>
+---
 
 ## More ggplot examples to work through
 Below are several examples of complex plots. Feel free to work through them on your own to see some techniques for developing presentation ready plots. 
@@ -118,7 +114,7 @@ Plot the locations of big foot sightings on a map
 [Points of View columns on data visualization](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
 
 
-
+Additional packages
 ```
 install.packages("devtools") 
 library(devtools)
