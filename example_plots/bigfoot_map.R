@@ -23,7 +23,7 @@ ggplot() +
 bfro<-bfro[(order(bfro$date)),]
 
 ggplot() +
-  geom_polygon(data = canusa, aes(x=long, y = lat, group = group), fill="grey90", color="white") + 
+  geom_polygon(data = canusa, aes(x=long, y = lat, group = group), fill="grey90", color="black", size=0.25) + 
   geom_point(aes(x = longitude, y = latitude, color=date),bfro, size=0.2) +
   coord_fixed(1)+
   theme_void()+scale_color_distiller(trans = "date", palette = "Spectral", direction = 1, name="Date of Sighting")+

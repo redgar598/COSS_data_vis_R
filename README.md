@@ -38,15 +38,15 @@ Plotting and data visualization are essential for effectively communicating bioi
 
 ### Required Packages
 ```
-# These are essential
-install.packages("ggplot2")
-install.packages("reshape2")
-install.packages("gridExtra")
+install.packages(c("reshape2", "ggplot2", "cowplot", "dplyr", "scales", "RColorBrewer", "gridExtra"))
 
-# These are fun and useful
-install.packages("RColorBrewer")
-install.packages("scales")
-install.packages("dplyr")
+## optional for some examples plots 
+install.packages("ggstream")
+install.packages("palmerpenguins")
+install.packages("dslabs")
+
+## super optional, for gifs only, takes awhile to install
+install.packages("gganimate") 
 ```
 
 
@@ -113,12 +113,20 @@ Uniform Manifold Approximation and Projection of single-cell expression data. Ha
 </p>
 
 
+### Gif plots
+This is the same penguin data but as a gif over time
+<p align="left">
+  <img src="figures/penguin_time.gif" width="300" height="210">
+</p>
+
+
 ### Additional Resources
 [Effective Visual Communication for the Quantitative Scientist](https://ascpt.onlinelibrary.wiley.com/doi/full/10.1002/psp4.12455)
 <br/>
 [ggplot cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 <br/>
 [Points of View columns on data visualization](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
+[From Data to Viz](https://www.data-to-viz.com/)
 
 
 Additional packages
