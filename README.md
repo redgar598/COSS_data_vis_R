@@ -116,7 +116,7 @@ Uniform Manifold Approximation and Projection of single-cell expression data. Ha
 ### Gif plots
 This is the same penguin data but as a gif over time
 <p align="left">
-  <img src="figures/penguin_time.gif" width="300" height="210">
+  <img src="figures/penguin_time.gif" width="600" height="510">
 </p>
 
 
