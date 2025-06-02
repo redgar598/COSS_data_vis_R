@@ -126,6 +126,7 @@ This is the same penguin data but as a gif over time
 [ggplot cheat sheet](https://rstudio.github.io/cheatsheets/data-visualization.pdf)
 <br/>
 [Points of View columns on data visualization](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
+<br/>
 [From Data to Viz](https://www.data-to-viz.com/)
 
 
