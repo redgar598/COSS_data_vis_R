@@ -61,10 +61,13 @@ makeVolcano<-function(pvalue, deltabeta, dB_threshold, pval_threshold, legend_ti
     theme(plot.margin=unit(c(1,1,1,2),"cm"))+ th+
     guides(color = guide_legend(override.aes = list(size = 4)))
   
-  # p val dis
-  pval_dis<-ggplot()+geom_histogram(aes(pvalue),fill="grey90", color="black")+theme_bw()+xlab("Nominal P Value")+th+
-    theme(plot.margin=unit(c(1,8.75,-0.6,1.5),"cm"))+ylab("CpG Count")
-  
-  grid.arrange(pval_dis, volcano_plot, ncol=1,heights = c(2, 6))#
+
+  volcano_plot
   
 }
+
+## Load Data
+DEG<-read.csv("data/differential_expression.csv")
+
+## run function on data
+makeVolcano(DEG$P.Value, DEG$logFC, 2, 0.005, "Wild Type vs Mutant", 6)
