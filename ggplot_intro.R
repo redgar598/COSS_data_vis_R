@@ -30,7 +30,7 @@ geneExp_twoGene_longform<-melt(geneExp)
 colnames(geneExp_twoGene_longform)<-c("gene", "sidChar","expression")
 
 # What did melt even do though?
-geneExp_twoGene
+head(geneExp)
 head(geneExp_twoGene_longform)
 # Smushed it pretty much... this format is generally what ggplot prefers. 
 # Factors (like gene) that you might like as categories along the X or values along the y (expression) should be in columns not rows
